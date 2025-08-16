@@ -3,7 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { FeatureSection } from "@/components/feature-section"
 import { GuideSection } from "@/components/guide-section"
 import { CompaniesSection } from "@/components/companies-section"
-import { CTASection } from "@/components/cta-section"
+// import { CTASection } from "@/components/cta-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 
@@ -15,7 +15,6 @@ export default function HomePage() {
       <FeatureSection />
       <GuideSection />
       <CompaniesSection />
-      <CTASection />
       <ContactSection />
       <Footer />
     </main>

@@ -15,7 +15,7 @@ export function HeroSection() {
         width={100}
         height={100}
         priority
-        className="absolute top-28 right-14"
+        className="absolute top-28 right-14 animate-pulse"
       />
       <Image
         src={ellipse_3}
@@ -23,7 +23,7 @@ export function HeroSection() {
         width={100}
         height={100}
         priority
-        className="absolute top-0"
+        className="absolute top-0 animate-pulse"
       />
       <Image
         src={ellipse_2}
@@ -31,7 +31,7 @@ export function HeroSection() {
         width={400}
         height={400}
         priority
-        className="absolute top-0"
+        className="absolute top-0 animate-pulse"
       />
       <Image
         src={ellipse_3}
@@ -39,7 +39,7 @@ export function HeroSection() {
         width={100}
         height={100}
         priority
-        className="absolute top-60 left-14"
+        className="absolute top-60 left-14 animate-pulse"
       />
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
@@ -54,7 +54,7 @@ export function HeroSection() {
 
         <Button
           size="lg"
-          className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity text-lg px-8 py-3"
+          className="mb-6 bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity text-lg px-8 py-3"
         >
           Download Template
         </Button>
@@ -64,7 +64,7 @@ export function HeroSection() {
         <Image
           src={Subtract}
           alt="Subtract"
-          className="w-full h-auto relative mt-[200px]"
+          className="w-full h-auto relative mt-[200px] mb-[583px] sm:mb-0"
         />
         <DashboardMockup />
       </div>

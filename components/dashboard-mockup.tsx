@@ -6,8 +6,8 @@ import bars from "@/assets/images/bars.png"
 export function DashboardMockup() {
   return (
     <div className="flex justify-center z-10 ">
-      <Card className=" w-2xl absolute lg:top-16 bg-card/80  bg-darkGray border-border/50 p-6 rounded-2xl shadow-2xl">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <Card className=" md:w-2xl w-8/12 absolute top-0 lg:top-16 bg-card/80  bg-darkGray border-border/50 p-6 rounded-2xl shadow-2xl">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {/* Left sidebar */}
           <div className="space-y-4 ">
             <div className="space-y-2 bg-lightGray border-border/50 p-6 rounded-2xl h-full">
@@ -45,7 +45,7 @@ export function DashboardMockup() {
           </div>
 
           {/* Right sidebar */}
-          <div className="space-y-4">
+          <div className="space-y-4 ">
             {/* User avatars */}
             <div className="space-y-3 bg-lightGray border-border/50 p-6 rounded-2xl">
               {[1, 2, 3, 4, 5].map((i) => (
@@ -55,7 +55,7 @@ export function DashboardMockup() {
                 </div>
               ))}
             </div>
-            <div className="bg-lightGray border-border/50 p-6 rounded-2xl h-24"></div>
+            <div className="bg-lightGray border-border/50 p-6 rounded-2xl h-24 hidden sm:block"></div>
           </div>
         </div>
       </Card>

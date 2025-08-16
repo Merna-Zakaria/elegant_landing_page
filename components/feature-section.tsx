@@ -48,8 +48,8 @@ const features = [
 
 export function FeatureSection() {
   return (
-    <section className="py-6 ">
-      <div className="max-w-5xl mx-auto">
+    <section className="w-full flex justify-center ">
+      <div className="md:w-10/12 w-8/12">
         <div className="mb-12">
           <h2 className="font-sans text-3xl md:text-4xl font-bold text-foreground mb-4">Feature Boxes</h2>
           <p className="font-mono text-lg text-muted-foreground max-w-2xl">
@@ -61,16 +61,17 @@ export function FeatureSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <Card key={index} className="border-0 text-center gray p-6 hover:border-primary/50 transition-colors group">
-        <div className="flex justify-center  p-6 bg-[#222228];
-">
-                 <Image
-        src={feature.icon}
-        alt="icon"
-        width={45}
-        height={45}
-        className="mb-4 group-hover:scale-110 transition-transform"
-      />
-        </div>
+              <div className="w-full flex justify-center mb-4">
+                <div className="cursor-pointer flex justify-center align-middle w-24 py-6 bg-[#222228] rounded-3xl hover:bg-gradient-to-r hover:from-primary hover:to-secondary ">
+                  <Image
+                    src={feature.icon}
+                    alt="icon"
+                    width={45}
+                    height={45}
+                    className="group-hover:scale-110 transition-transform"
+                  />
+                </div>
+              </div>
               {/* <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">{feature.icon}</div> */}
               <h3 className="font-sans text-xl font-semibold text-foreground mb-3">{feature.title}</h3>
               <p className="font-mono text-muted-foreground leading-relaxed">{feature.description}</p>
