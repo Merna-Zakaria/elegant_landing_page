@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {CTASection} from "@/components/cta-section"
+import CTASection from "@/components/cta-section"
 import comp1 from "@/assets/images/_1.png";
 import comp2 from "@/assets/images/_2.png";
 import comp3 from "@/assets/images/_3.png";
@@ -9,7 +9,7 @@ import comp6 from "@/assets/images/_6.png";
 
 const companies = [comp1, comp2, comp3, comp4, comp5, comp6]
 
-export function CompaniesSection() {
+export default function CompaniesSection() {
   return (
     <section className="py-20 pb-52 bg-[#18181C] relative">
       <div className="mx-auto w-9/12 text-center ">

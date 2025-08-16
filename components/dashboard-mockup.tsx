@@ -3,7 +3,7 @@ import Image from "next/image";
 import circle from "@/assets/images/circle.png"
 import bars from "@/assets/images/bars.png"
 
-export function DashboardMockup() {
+export default function DashboardMockup() {
   return (
     <div className="flex justify-center z-10 ">
       <Card className=" md:w-2xl w-8/12 absolute top-0 lg:top-16 bg-card/80  bg-darkGray border-border/50 p-6 rounded-2xl shadow-2xl">

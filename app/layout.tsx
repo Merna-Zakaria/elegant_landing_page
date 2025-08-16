@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Squid - Beautiful Landing Page Design for You",
   description:
     "A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem.",
-  generator: "v0.app",
+  generator: "Merna.Zakaria",
 }
 
 export default function RootLayout({

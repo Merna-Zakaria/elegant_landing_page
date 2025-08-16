@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import location from "@/assets/images/location.png";
 
-export function ContactSection() {
+export default function ContactSection() {
   return (
     <section className="my-20 w-9/12 mx-auto  mt-[200px] px-6 grid grid-cols-1 md:grid-cols-2 ">
          <Image

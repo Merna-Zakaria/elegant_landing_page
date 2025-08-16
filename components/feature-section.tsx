@@ -46,7 +46,7 @@ const features = [
   },
 ]
 
-export function FeatureSection() {
+export default function FeatureSection() {
   return (
     <section className="w-full flex justify-center ">
       <div className="md:w-10/12 w-8/12">

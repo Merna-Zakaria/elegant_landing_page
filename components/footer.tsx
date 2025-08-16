@@ -17,7 +17,7 @@ const footerSections = [
   },
 ]
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-card/50 border-t border-border py-16 px-6">
       <div className="max-w-6xl mx-auto">

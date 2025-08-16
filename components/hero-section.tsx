@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
-import { DashboardMockup } from "./dashboard-mockup"
+import  DashboardMockup  from "./dashboard-mockup"
 import ellipse_1 from "@/assets/images/ellipse-1.png"
 import ellipse_2 from "@/assets/images/ellipse-2.svg"
 import ellipse_3 from "@/assets/images/ellipse-3.png"
 import Subtract from "@/assets/images/Subtract.svg"
 
-export function HeroSection() {
+export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center py-10 overflow-hidden">
       <Image

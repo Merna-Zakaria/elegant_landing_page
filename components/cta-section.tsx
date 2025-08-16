@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card"
 import ellipse_1 from "@/assets/images/ellipse-1.png"
 import map from "@/assets/images/map.png";
 
-export function CTASection() {
+export default function CTASection() {
   return (
     <section className="py-20 px-6  mx-auto w-9/12">
       <Card className=" relative grid grid-cols-1 md:grid-cols-2  bg-gradient-to-r from-primary to-secondary p-8 py-10 md:p-12 rounded-3xl">

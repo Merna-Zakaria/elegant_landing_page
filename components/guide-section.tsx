@@ -15,7 +15,7 @@ const floatingIcons = [
   { icon: "🚀", position: "top-1/2 left-8", delay: "2s" },
 ]
 
-export function GuideSection() {
+export default function GuideSection() {
   return (
     <section className="md:w-10/12 w-9/12 mx-auto py-20 px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
