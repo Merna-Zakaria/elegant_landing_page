@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import ellipse_1 from "@/assets/images/ellipse-1.png"
 import map from "@/assets/images/map.png";
 
 export default function CTASection() {
@@ -20,28 +19,13 @@ export default function CTASection() {
           </Button>
         </div>
         <div className="relative">
-          <Image
-        src={ellipse_1}
-        alt="ellipse_1"
-        width={100}
-        height={100}
-        priority
-        className="absolute animate-pulse"
-      />
         <Image
           src={map}
           alt="logo"
           width={600}
           height={250}
-          className="absolute z-50 right-[-115px]" />
-          <Image
-        src={ellipse_1}
-        alt="ellipse_1"
-        width={100}
-        height={100}
-        priority
-        className="absolute animate-pulse"
-      />
+          className="absolute z-50 right-[-115px]"
+          style={{ height: "auto" }}  />
         </div>
 
       </Card>

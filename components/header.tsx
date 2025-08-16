@@ -13,6 +13,7 @@ export default function Header() {
         width={100} 
         height={100} 
         priority // Optional: preloads image for faster LCP
+        style={{ height: "auto" }} 
       />
       </div>
 

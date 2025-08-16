@@ -28,6 +28,7 @@ export default function GuideSection() {
               width={50}
               height={50}
               className="md:w-[70px] lg:w-[80px] absolute animate-pulse top-[44%] left-[38%] sm:left-[44%]"
+              style={{ height: "auto" }} 
             />
               <Image
               src={purpleCircle}
@@ -35,6 +36,7 @@ export default function GuideSection() {
               width={40}
               height={40}
               className="lg:w-[60px] absolute animate-bounce top-[14%] sm:top-[1%] left-[38%] sm:left-[44%]"
+              style={{ height: "auto" }} 
             />
               <Image
               src={monky}
@@ -42,6 +44,7 @@ export default function GuideSection() {
               width={100}
               height={100}
               className="w-[50px] lg:w-[60px] absolute animate-pulse top-[30%] sm:right-[17%] right-[3%]"
+              style={{ height: "auto" }} 
             />
              <Image
               src={purpleCircle}
@@ -49,6 +52,7 @@ export default function GuideSection() {
               width={40}
               height={40}
               className="lg:w-[60px] absolute animate-bounce bottom-[20%] sm:bottom-[2%] right-[20%] sm:right-[44%]"
+              style={{ height: "auto" }} 
             />
               <Image
               src={WImg}
@@ -56,6 +60,7 @@ export default function GuideSection() {
               width={100}
               height={100}
               className="w-[50px] lg:w-[60px] absolute animate-pulse bottom-[24%] sm:left-[17%] left-[3%]"
+              style={{ height: "auto" }} 
             />
              <Image
               src={purpleCircle}
@@ -63,6 +68,7 @@ export default function GuideSection() {
               width={40}
               height={40}
               className="lg:w-[60px] absolute animate-bounce top-[42%] sm:top-[38%] left-[-7%] sm:left-[15%]"
+              style={{ height: "auto" }} 
             />
                <Image
               src={flower}
@@ -70,6 +76,7 @@ export default function GuideSection() {
               width={100}
               height={100}
               className="w-[50px] lg:w-[60px] absolute animate-pulse top-[17%] sm:left-[22%] left-[10%]"
+              style={{ height: "auto" }} 
             />
           </div>
 

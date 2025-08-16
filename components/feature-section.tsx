@@ -62,13 +62,13 @@ export default function FeatureSection() {
           {features.map((feature, index) => (
             <Card key={index} className="border-0 text-center gray p-6 hover:border-primary/50 transition-colors group">
               <div className="w-full flex justify-center mb-4">
-                <div className="cursor-pointer flex justify-center align-middle w-24 py-6 bg-[#222228] rounded-3xl hover:bg-gradient-to-r hover:from-primary hover:to-secondary ">
+                <div className="group-hover:scale-110 transition-transform cursor-pointer flex justify-center align-middle w-24 py-6 bg-[#222228] rounded-3xl hover:bg-gradient-to-r hover:from-primary hover:to-secondary ">
                   <Image
                     src={feature.icon}
                     alt="icon"
                     width={45}
                     height={45}
-                    className="group-hover:scale-110 transition-transform"
+                     style={{ height: "auto" }}
                   />
                 </div>
               </div>

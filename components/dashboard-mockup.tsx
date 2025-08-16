@@ -26,6 +26,7 @@ export default function DashboardMockup() {
                 alt="ellipse_3"
                 width={250}
                 height={250}
+                style={{ height: "auto" }} 
               />
             </div>
 
@@ -40,6 +41,7 @@ export default function DashboardMockup() {
                 alt="bar"
                 width={250}
                 height={250}
+                style={{ height: "auto" }} 
               />
             </div>
           </div>

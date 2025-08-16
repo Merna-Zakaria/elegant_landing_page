@@ -14,32 +14,32 @@ export default function HeroSection() {
         alt="ellipse_1"
         width={100}
         height={100}
-        priority
         className="absolute top-28 right-14 animate-pulse"
+        style={{ height: "auto" }} 
       />
       <Image
         src={ellipse_3}
         alt="ellipse_3"
         width={100}
         height={100}
-        priority
         className="absolute top-0 animate-pulse"
+        style={{ height: "auto" }} 
       />
       <Image
         src={ellipse_2}
         alt="ellipse_2"
         width={400}
         height={400}
-        priority
         className="absolute top-0 animate-pulse"
+        style={{ height: "auto" }} 
       />
       <Image
         src={ellipse_3}
         alt="ellipse_3"
         width={100}
         height={100}
-        priority
         className="absolute top-60 left-14 animate-pulse"
+        style={{ height: "auto" }} 
       />
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
@@ -65,6 +65,7 @@ export default function HeroSection() {
           src={Subtract}
           alt="Subtract"
           className="w-full h-auto relative mt-[200px] mb-[583px] sm:mb-0"
+          style={{ height: "auto" }} 
         />
         <DashboardMockup />
       </div>

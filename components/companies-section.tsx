@@ -29,7 +29,8 @@ export default function CompaniesSection() {
                 src={company}
                 alt="icon"
                 width={60}
-                height={60} />
+                height={60}
+                style={{ height: "auto" }}  />
             </div>
 
           ))}
